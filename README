@@ -1,0 +1,5 @@
+Description
+  A project regularly updates hosts to temporarily solve GitHub blocked.
+
+Cron Schedule
+  Every half hour
