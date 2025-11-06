@@ -2,7 +2,7 @@
 
 function domain2ip() {
     for A_DOMAIN in ${DOMAINS[*]}; do
-        AN_IPV4=$(dig ${A_DOMAIN} -4 +short | awk '{if($0!~"[a-z]")print}' | head -1)
+        AN_IPV4=$(dig ${A_DOMAIN} -4 +short | awk '{ if($0!~"[a-z]") print }' | head -1)
         echo "${AN_IPV4} ${A_DOMAIN}" | tee -a hosts
     done
 }
