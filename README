@@ -1,0 +1,5 @@
+Description
+  A bash script regularly updates the hosts to temporarily solve most GitHub sites blocked.
+
+Cron Schedule
+  Every half hour
